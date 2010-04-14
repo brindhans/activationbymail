@@ -6,7 +6,7 @@
   *
   * @author Dominik Cebula dominikcebula@gmail.com
   * @copyright Dominik Cebula dominikcebula@gmail.com
-  * @license    GNU_GPL_v2
+  * @license GNU_GPL_v2
   * @version 1.0
   */
 class activationbymail extends Module {
