@@ -13,7 +13,7 @@ class activationbymail extends Module {
 
     public function __construct() {
         $this->name='activationbymail';
-        $this->version='1.0';
+        $this->version='1.1';
         $this->tab='Tools';
 
         parent::__construct();
