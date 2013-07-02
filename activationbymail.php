@@ -33,7 +33,9 @@ class activationbymail extends Module
 
     public function install()
     {
-        if (parent::install() && $this->registerHook('createAccount') && Db::getInstance()->Execute('alter table ' . _DB_PREFIX_ . 'customer add activation_link char(32)')
+        if (parent::install() &&
+            $this->registerHook('createAccount') &&
+            Db::getInstance()->Execute('alter table ' . _DB_PREFIX_ . 'customer add activation_link char(32)')
         )
         {
             return true;
@@ -71,26 +73,26 @@ class activationbymail extends Module
         $link = $this->context->link->getModuleLink($this->name, 'activation') . '&link=' . $activation_link;
 
         $sql = sprintf("update %scustomer set active=0, activation_link='%s' where id_customer=%d",
-            _DB_PREFIX_, $activation_link, $req['newCustomer']->id);
+                       _DB_PREFIX_, $activation_link, $req['newCustomer']->id);
         Db::getInstance()->Execute($sql);
 
         $customer = new Customer($req['newCustomer']->id);
         $customer->getFields();
 
         Mail::Send($id_lang,
-            'account_activation',
-            $this->l('Account activation'),
-            array('{firstname}' => $customer->firstname,
-                  '{lastname}' => $customer->lastname,
-                  '{email}' => $customer->email,
-                  '{link}' => $link),
-            $customer->email,
-            NULL,
-            NULL,
-            NULL,
-            NULL,
-            NULL,
-            'modules/activationbymail/mails/');
+                   'account_activation',
+                   $this->l('Account activation'),
+                   array('{firstname}' => $customer->firstname,
+                         '{lastname}' => $customer->lastname,
+                         '{email}' => $customer->email,
+                         '{link}' => $link),
+                   $customer->email,
+                   NULL,
+                   NULL,
+                   NULL,
+                   NULL,
+                   NULL,
+                   'modules/activationbymail/mails/');
         Tools::redirect($this->context->link->getModuleLink($this->name, 'info'));
     }
 
