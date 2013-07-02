@@ -121,7 +121,7 @@ class activationbymail extends Module
         }
     }
 
-    public function activateAccountForValidLink($link)
+    private function activateAccountForValidLink($link)
     {
         $db = Db::getInstance();
         if (!$db->Execute('update ' . _DB_PREFIX_ . 'customer set active=1 where activation_link="' . $link . '"'))
