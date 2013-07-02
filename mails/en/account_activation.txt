@@ -1,6 +1,6 @@
 ﻿Hello {firstname} {lastname},
 
 Please click activation link below to activate your account {email}:
-{shop_url}modules/activationbymail/activation.php?link={link}
+{link}
 
 {shop_name}
