@@ -1,7 +1,7 @@
 #summary This documents shows how to install activationbymail module.
 #labels installation,instruction,documentation
 
-= Installation =
+== Installation ==
 
 You can use two methods to install activationbymail module:
  # Automatic
