@@ -7,7 +7,7 @@ Current state of the module is not giving you ability to modify view and e-mail 
 
 == Modifying overview ==
 
-The newest version of the module is rewritten so it uses newest API supplied by Prestashop 1.5.x. That means that module is more MVC than previous versions. This page is written from perspective of the newest version, prevision version can also be modified but location of some files may be different, however some rules applies when trying to do own customization.
+The newest version of the module is rewritten so it uses newest API supplied by Prestashop 1.5.x. That means that module is more MVC compatible than previous versions. This page is written from perspective of the newest version, prevision version can also be modified but location of some files may be different, however same rules applies when trying to do customization.
 
 == How to edit files ==
 
@@ -21,6 +21,7 @@ You can edit files locally after extracting distribution package or remotely by 
  * .txt - text files, used for mails, may have some content holders
  * other files types - should not be modified
 
+
 == Mods ==
 
 === Mod: Info for registered user ===
@@ -29,14 +30,25 @@ This is the information that informs customer that his account was created but i
 
 File: views/templates/front/info.tpl
 
+
 === Mod: Activation successful ===
 
 This is the information showed to the user after clicking link in the mail and after account was successfully activated.
 
 File: views/templates/front/activation-success.tpl
 
+
 === Mod: Activation failed ===
 
 This is the information showed to the user after clicking link in the mail and after account was not successfully activated.
 
 File: views/templates/front/activation-fail.tpl
+
+
+=== Mod: Mails ===
+
+Mails are kept in multilanguage friendly structure. Message is presented as html file or txt file, when changing content in one file you must remember to change content in second file. When editing, do not remove content holders.
+
+ISO_CODE = en/pl
+File: mails/{ISO_CODE}/account_activation.html
+File: mails/{ISO_CODE}/account_activation.txt
