@@ -1,5 +1,5 @@
+#summary This documents shows how to install activationbymail module.
 #labels installation,instruction,documentation
-#This documents shows how to install activationbymail module.
 
 = Installation =
 
