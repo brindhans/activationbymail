@@ -20,7 +20,7 @@ Manual installation is more 'bullet proof' but requires some technical knowledge
  # Go to 'modules tab'.
  # Click 'add new module' option.
  # Browse for activationbymail.zip file from your local disk and click 'upload this module'.
- # If prestashop successfully added activationbymail module you should be able to see it in 'modules tab' under Administration or Tools category. If you can not find activationbymodule there, that means that module was not successfully added, please consult official Prestashop documentation too find solution to your problem.
+ # If prestashop has successfully added activationbymail module you should be able to see it in 'modules tab' under Administration or Tools category. If you can not find activationbymodule there, that means that module was not successfully added, please consult official Prestashop documentation too find solution to your problem.
  # If you can see activationbymail module under Administration or Tools category, you can click install option.
  # After clicking install option you should see installation confirmation dialog.
 
