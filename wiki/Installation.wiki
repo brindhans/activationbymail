@@ -14,3 +14,6 @@ Manual installation is more 'bullet proof' but requires some technical knowledge
 == Automatic Installation Method ==
 
  # Go to Downloads section and choose version of the module that matches your prestashop version.
+ # Download zip file to your local disk.
+ # The name of the file should be activationbymail_YYYY_MM_DD.zip, where YYYY - year, MM - month, DD - day of the release.
+ # Change the name of the downloaded zip archive from activationbymail_YYYY_MM_DD.zip to activationbymail.zip - basically you need to delete _YYYY_DD_MM. For example, if archive is named activationbymail_2012_09_19.zip you need to change file name to activationbymail.zip
