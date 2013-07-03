@@ -12,3 +12,5 @@ Automatic installation is more user friendly and does not require you to access 
 Manual installation is more 'bullet proof' but requires some technical knowledge. It is a good installation method for people who has some technical knowledge and knows how to access prestashop installation via FTP or SSH.
 
 == Automatic Installation Method ==
+
+ # Go to Downloads section and choose version of the module that matches your prestashop version.
