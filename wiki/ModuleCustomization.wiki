@@ -52,3 +52,5 @@ Mails are kept in multilanguage friendly structure. Message is presented as html
 ISO_CODE = en, pl
 File: mails/ISO_CODE/account_activation.html
 File: mails/ISO_CODE/account_activation.txt
+
+=== X ===
