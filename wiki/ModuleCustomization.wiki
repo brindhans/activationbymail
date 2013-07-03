@@ -1,0 +1,16 @@
+#summary Module customization methods
+
+= Introduction =
+
+Current state of the module is not giving you ability to modify view and e-mail presented to the customer from administration panel. Those features may be added in the future but currently they are not available, however it does not mean that you can not modify this content. Below are some cases and instruction for modifying some parts of the module to match your needs.
+
+
+= Modifying overview =
+
+The newest version of the module is rewritten so it uses newest API supplied by Prestashop 1.5.x. That means that module is more MVC than previous versions. This page is written from perspective of the newest version, prevision version can also be modified but location of some files may be different, however some rules applies when trying to do own customization.
+
+= Files extensions important from customization point of view =
+
+ * .tpl - view files for Smarty Engine, basically they are html files with content holders
+ * .html - pure html files, used for mails, may have some content holders
+ * .txt - text files, used for mails, may have some content holders
