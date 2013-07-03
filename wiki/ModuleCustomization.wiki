@@ -49,6 +49,6 @@ File: views/templates/front/activation-fail.tpl
 
 Mails are kept in multilanguage friendly structure. Message is presented as html file or txt file, when changing content in one file you must remember to change content in second file. When editing, do not remove content holders.
 
-ISO_CODE: en, pl
+ISO_CODE: en, pl<br/>
 File: mails/ISO_CODE/account_activation.html
 File: mails/ISO_CODE/account_activation.txt
