@@ -21,6 +21,18 @@ Manual installation is more 'bullet proof' but requires some technical knowledge
  # Go to 'modules tab'.
  # Click 'add new module' option.
  # Browse activationbymail.zip file from your local disk and click 'upload this module'.
- # If installation was successful activationbymail module should be visible in 'modules tab' under Administration or Tools category. If you can not find activationbymodule there, that means that module was not successfully added, please consult official Prestashop documentation too find solution to your problem.
+ # If prestashop successfully added activationbymail module you should be able to see it in 'modules tab' under Administration or Tools category. If you can not find activationbymodule there, that means that module was not successfully added, please consult official Prestashop documentation too find solution to your problem.
  # If you can see activationbymail module under Administration or Tools category, you can click install option.
  # After clicking install option you should see installation confirmation dialog.
+
+== Manual Installation Method ==
+
+ # Connect remotely to the server using protocol that allows you transferring files, you can use FTP, SFTP, SCP or login using SSH and use wget to download module from google code.
+ # Find out the location on the remote server where your prestashop instance is installed, it can be something like /var/www/prestashop, /home/user/public_html/prestashop, /home/user/mydomain/public_html/prestashop etc.
+ # Download zip archive from Downloads section for your version of Prestashop
+ # Extract locally zip archive from Downloads section, you should see activationbymail folder.
+ # Upload activationbymail folder to the modules directory of prestashop directory, so the full path will be something like /home/user/public_html/prestashop/modules/activationbymail.
+ # Go to 'module tab'.
+ # Under Administration or Tools tab find activationbymail module.
+ # Click install button.
+ # Information about successful installation should be visible in the top of the page.
