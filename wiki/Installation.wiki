@@ -1,14 +1,10 @@
-#summary One-sentence summary of this page.
 #labels installation,instruction,documentation
+#This documents shows how to install activationbymail module.
 
-= Introduction =
+= Installation =
 
-Add your content here.
+You can use two methods to install activationbymail module:
+# Automatic
+# Manual
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Automatic installation is more user friendly and does not require you to access your prestashop installation via FTP or SSH, I would recommend this installation method for non-technical users. If this method will fail to install module, please use manual installation.
