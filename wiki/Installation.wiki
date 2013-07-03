@@ -4,7 +4,7 @@
 = Installation =
 
 You can use two methods to install activationbymail module:
-# Automatic
-# Manual
+    # Automatic
+    # Manual
 
 Automatic installation is more user friendly and does not require you to access your prestashop installation via FTP or SSH, I would recommend this installation method for non-technical users. If this method will fail to install module, please use manual installation.
