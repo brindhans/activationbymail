@@ -10,6 +10,7 @@ Current state of the module is not giving you ability to modify view and e-mail 
 The newest version of the module is rewritten so it uses newest API supplied by Prestashop 1.5.x. That means that module is more MVC than previous versions. This page is written from perspective of the newest version, prevision version can also be modified but location of some files may be different, however some rules applies when trying to do own customization.
 
 == Mods ==
+
 === How to edit files ===
 
 You can edit files locally after extracting distribution package or remotely by ssh using vim or other text editor. When editing files locally remember to upload them after edit&save operation. You can also search for other software that allows you to edit text files on remote server.
